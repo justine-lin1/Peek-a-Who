@@ -102,6 +102,7 @@ const ImageUpload = () => {
           ))}
         </div>
       )}
+      <button className = 'generate-btn' onClick={handleUpload}> Generate Board!</button>
     </div>
   );
 };

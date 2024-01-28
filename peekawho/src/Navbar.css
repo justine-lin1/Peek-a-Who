@@ -6,27 +6,22 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    background-color: #ffffff;
+    background-color: #2C557B;
     padding: 10px 20px;
-    color: #D23C2F;
+    color: white;
     font-family: 'DM Sans';
     width: 100vw;
 }
-  
+
+.title{
+    padding: 8px;
+}
+
 .navbar-logo svg {
     transform: scaleX(-0.9) rotate(-30deg);
     transition: 0.5s;
 }
 
-.spinner:hover {
-    transform: scaleX(-0.9) rotate(-50deg);
-}
-
-.nav-list {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-}
 
 .nav-item {
     cursor: pointer;
@@ -35,7 +30,3 @@
     padding: 10px;
 }
 
-/* Hover effect */
-.nav-item:hover {
-    color: #ff9900;
-}
